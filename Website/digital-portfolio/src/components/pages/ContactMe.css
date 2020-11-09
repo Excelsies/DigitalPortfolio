@@ -1,0 +1,60 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 24px;
+    color: #242424;
+}
+
+.contact > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-heading {
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.contact-text {
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.contact-input{
+    padding: 8px 20px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: 1px solid #242424;
+}
+
+.contact-email-form h2 {
+    margin-bottom: 32px;
+}
+
+.contact-input::placeholder {
+    color: #b1b1b1;
+}
+
+.btn{
+    font-size: 20px;
+}
+
+@media
+ screen and (max-width: 820px) {
+
+    .contact-input{
+        width: 100%;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+ }
