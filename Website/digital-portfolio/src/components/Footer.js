@@ -9,19 +9,19 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>All About Me</h2>
-                        <Link to='/about'>About Me</Link>
-                        <Link to='/skills'>Skills</Link>
-                        <Link to='/education'>Education</Link>
-                        <Link to='/projects'>Projects</Link>
-                        <Link to='/work'>Work</Link>
-                        <Link to='/hobbies'>Hobbies</Link>
+                        <Link to='/DigitalPortfolio/about'>About Me</Link>
+                        <Link to='/DigitalPortfolio/skills'>Skills</Link>
+                        <Link to='/DigitalPortfolio/education'>Education</Link>
+                        <Link to='/DigitalPortfolio/projects'>Projects</Link>
+                        <Link to='/DigitalPortfolio/work'>Work</Link>
+                        <Link to='/DigitalPortfolio/hobbies'>Hobbies</Link>
                     </div>
                 </div>
             </div>
             <section className='social-media'>
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
-                        <Link to='/' className='social-logo'>
+                        <Link to='/DigitalPortfolio/' className='social-logo'>
                             MyLogo
                         </Link>
                     </div>

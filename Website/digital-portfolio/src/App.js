@@ -17,15 +17,15 @@ function App() {
       <Router>
         <Navbar />
         <switch>
-          <Route path='/' exact component=
+          <Route path='/DigitalPortfolio' exact component=
           {Home}/>
-          <Route path='/about' component={About} />
-          <Route path='/education' component={Education} />
-          <Route path='/projects' component={Project} />
-          <Route path='/skills' component={Skills} />
-          <Route path='/work' component={Work} />
-          <Route path='/contact-me' component={Contact} />
-          <Route path='/hobbies' component={Hobbies} />
+          <Route path='/DigitalPortfolio/about' component={About} />
+          <Route path='/DigitalPortfolio/education' component={Education} />
+          <Route path='/DigitalPortfolio/projects' component={Project} />
+          <Route path='/DigitalPortfolio/skills' component={Skills} />
+          <Route path='/DigitalPortfolio/work' component={Work} />
+          <Route path='/DigitalPortfolio/contact-me' component={Contact} />
+          <Route path='/DigitalPortfolio/hobbies' component={Hobbies} />
         </switch>
       </Router>
     </>

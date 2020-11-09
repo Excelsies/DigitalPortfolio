@@ -28,7 +28,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                    <Link to="/DigitalPortfolio/" className="navbar-logo" onClick={closeMobileMenu}>
                         <img src='images/img-portrait.jpg' className="portrait__img" alt=''/>
                         <div className='navbar-logo-text'>Garet Eyre</div>
                     </Link>
@@ -37,42 +37,42 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/DigitalPortfolio/' className='nav-links' onClick={closeMobileMenu}>
                                 Home    
                             </Link>    
                         </li>    
                         <li className='nav-item'>
-                            <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/DigitalPortfolio/about' className='nav-links' onClick={closeMobileMenu}>
                                 About Me    
                             </Link>   
                         </li> 
                         <li className='nav-item'>
-                            <Link to='/skills' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/DigitalPortfolio/skills' className='nav-links' onClick={closeMobileMenu}>
                                 Skills    
                             </Link> 
                         </li>
                         <li className='nav-item'>
-                            <Link to='/education' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/DigitalPortfolio/education' className='nav-links' onClick={closeMobileMenu}>
                                 Education    
                             </Link> 
                         </li>
                         <li className='nav-item'>
-                            <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/DigitalPortfolio/projects' className='nav-links' onClick={closeMobileMenu}>
                                 Projects    
                             </Link> 
                         </li>
                         <li className='nav-item'>
-                            <Link to='/work' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/DigitalPortfolio/work' className='nav-links' onClick={closeMobileMenu}>
                                 Work    
                             </Link> 
                         </li>
                         <li className='nav-item'>
-                            <Link to='/hobbies' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/DigitalPortfolio/hobbies' className='nav-links' onClick={closeMobileMenu}>
                                 Hobbies    
                             </Link> 
                         </li>
                         <li className='nav-item'>
-                            <Link to='/contact-me' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <Link to='/DigitalPortfolio/contact-me' className='nav-links-mobile' onClick={closeMobileMenu}>
                                 Contact Me!    
                             </Link>    
                         </li>    

@@ -6,7 +6,7 @@ const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
 const SIZES = ['btn--medium', 'btn--large'];
 
-const LINKS = ['/contact-me', '/about'];
+const LINKS = ['/DigitalPortfolio/contact-me', '/DigitalPortfolio/about'];
 
 export const Button = ({
   children,
