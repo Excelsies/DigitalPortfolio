@@ -10,6 +10,7 @@ import Skills from './components/pages/Skills';
 import Work from './components/pages/Work';
 import Contact from './components/pages/ContactMe';
 import Hobbies from './components/pages/Hobbies';
+import Navbar from './components/Footer';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path='/DigitalPortfolio/contact-me' component={Contact} />
           <Route path='/DigitalPortfolio/hobbies' component={Hobbies} />
         </switch>
+        <Footer />
       </Router>
     </>
   );

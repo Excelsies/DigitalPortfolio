@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../App.css'
-import Footer from '../Footer'
 import './ContactMe.css'
 import { Button } from '../Button'
 
@@ -41,7 +40,6 @@ export default function ContactMe() {
                  Directly email me at <a className='email-link' href='mailto:gme97531@gmail.com'> gme97531@gmail.com</a>
                 </p>
             </section>
-            <Footer />
         </>
         )
 }
