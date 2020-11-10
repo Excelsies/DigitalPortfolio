@@ -23,7 +23,7 @@ export default function AboutMe() {
                 In my spare time I continue working on projects that keep me learning and working on code, improving where I can with projects I enjoy.
             </p>
             <p className='about-content-body projects'>
-                I found with each and every project that I really don't care what it is I'm making, as the challenge of making something out of code really held my interest. 
+                I have come to realize with each and every project that I really don't care what it is I'm making, as the challenge of making something out of code really held my interest. 
                 Making things from a simple notepad-esque application to help with my work to procedurally generated mazes in a video game, using C# or writing in JavaScript, it doesn't matter what I'm making or what I'm using.
                 With this I was able to learn a multitude of languages in multiple Integrated Development Environments.
                 I have learned to transition from one IDE to another with little confusion and from one language to another with little effort.
