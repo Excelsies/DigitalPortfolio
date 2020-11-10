@@ -49,7 +49,7 @@ function Cards() {
             />
             <CardItem
               src='images/img-contact.jpg'
-              text='Would not hurt, to each out to Garet!'
+              text='Would not hurt to reach out to Garet!'
               label='Contact Me'
               path='/DigitalPortfolio/contact-me'
             />
