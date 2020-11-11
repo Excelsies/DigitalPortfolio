@@ -5,9 +5,8 @@ import { Button } from '../Button'
 
 export default function ContactMe() {
     return ( 
-        <>
-            <h1 className='contactme'>Contact Me!</h1>
             <section className='contact'>
+                <h1 className='contactme'>Contact Me!</h1>
                 <p className='contact-heading'>
                     Reach out to Garet! There's no harm in trying!
                 </p>
@@ -26,20 +25,19 @@ export default function ContactMe() {
                             <input type='subject' name='subject' placeholder='Subject*' className='contact-input'/>
                         </div>
                         <div>
-                            <input type='body' name='body' placeholder='What would you like to say?' className='contact-input'/>
+                            <textarea type='body' name='body' placeholder='What would you like to say?' className='contact-input'/>
                         </div>
                         <div>
-                            <Button buttonStyle='btn--large'>Send Message</Button>
+                            <Button buttonStyle='btn--outline-dark' buttonSize='btn--large'>Send Message</Button>
                         </div>
                     </form>
                 </div>
                 <p className='contact-text'>
                     OR
                 </p>
-                <p className='contact-text 2'>
+                <p className='contact-text'>
                  Directly email me at <a className='email-link' href='mailto:gme97531@gmail.com'> gme97531@gmail.com</a>
                 </p>
             </section>
-        </>
         )
 }
