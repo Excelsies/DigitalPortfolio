@@ -47,28 +47,18 @@ function Navbar() {
                             </Link>   
                         </li> 
                         <li className='nav-item'>
-                            <Link to='/DigitalPortfolio/skills' className='nav-links' onClick={closeMobileMenu}>
-                                Skills    
-                            </Link> 
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/DigitalPortfolio/education' className='nav-links' onClick={closeMobileMenu}>
-                                Education    
-                            </Link> 
-                        </li>
-                        <li className='nav-item'>
                             <Link to='/DigitalPortfolio/projects' className='nav-links' onClick={closeMobileMenu}>
                                 Projects    
                             </Link> 
                         </li>
                         <li className='nav-item'>
-                            <Link to='/DigitalPortfolio/work' className='nav-links' onClick={closeMobileMenu}>
-                                Work    
+                            <Link to='/DigitalPortfolio/hobbies' className='nav-links' onClick={closeMobileMenu}>
+                                Hobbies    
                             </Link> 
                         </li>
                         <li className='nav-item'>
-                            <Link to='/DigitalPortfolio/hobbies' className='nav-links' onClick={closeMobileMenu}>
-                                Hobbies    
+                            <Link to='/DigitalPortfolio/work-history' className='nav-links' onClick={closeMobileMenu}>
+                                Work History   
                             </Link> 
                         </li>
                         <li className='nav-item'>

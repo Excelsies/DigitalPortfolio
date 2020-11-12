@@ -21,31 +21,19 @@ function Cards() {
               label='Projects'
               path='/DigitalPortfolio/projects'
             />
+          </ul>
+          <ul className='cards__items'>
             <CardItem
               src='images/img-hobbies.jpg'
               text='Check out what Garet likes to do when he is not hard at work'
               label='Hobbies'
               path='/DigitalPortfolio/hobbies'
             />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-skills.jpg'
-              text='Take a trip through the skills I have obtained throughout my life'
-              label='Skills'
-              path='/DigitalPortfolio/skills'
-            />
-            <CardItem
-              src='images/img-Education.jpg'
-              text='Learn about the formal education I have received'
-              label='Education'
-              path='/DigitalPortfolio/education'
-            />
             <CardItem
               src='images/img-work.jpg'
               text='Find out all about my work history!'
-              label='Work'
-              path='/DigitalPortfolio/work'
+              label='Work History'
+              path='/DigitalPortfolio/work-history'
             />
             <CardItem
               src='images/img-contact.jpg'

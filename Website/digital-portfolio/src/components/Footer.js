@@ -10,10 +10,8 @@ function Footer() {
                     <div className='footer-link-items'>
                         <h2>All About Me</h2>
                         <Link to='/DigitalPortfolio/about'>About Me</Link>
-                        <Link to='/DigitalPortfolio/skills'>Skills</Link>
-                        <Link to='/DigitalPortfolio/education'>Education</Link>
                         <Link to='/DigitalPortfolio/projects'>Projects</Link>
-                        <Link to='/DigitalPortfolio/work'>Work</Link>
+                        <Link to='/DigitalPortfolio/work-history'>Work History</Link>
                         <Link to='/DigitalPortfolio/hobbies'>Hobbies</Link>
                     </div>
                 </div>
@@ -22,7 +20,7 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/DigitalPortfolio/' className='social-logo'>
-                            MyLogo
+                            Garet Eyre
                         </Link>
                     </div>
                     <small className='website-rights'>© Copyright ©2020 All rights reserved</small>
