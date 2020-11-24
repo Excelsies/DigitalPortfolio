@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home';
 import About from './components/pages/AboutMe';
 import Project from './components/pages/Projects';
@@ -17,7 +17,7 @@ function App() {
       <Router>
         <Navbar />
         <ScrollIntoView>
-          <switch>
+          <Switch>
             <Route path='/DigitalPortfolio' exact component=
             {Home}/>
             <Route path='/DigitalPortfolio/about' component={About} />
@@ -25,7 +25,7 @@ function App() {
             <Route path='/DigitalPortfolio/work-history' component={Work} />
             <Route path='/DigitalPortfolio/contact-me' component={Contact} />
             <Route path='/DigitalPortfolio/hobbies' component={Hobbies} />
-          </switch>
+          </Switch>
         </ScrollIntoView>
         <Footer />
       </Router>

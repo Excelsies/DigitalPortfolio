@@ -1,0 +1,36 @@
+.work-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    padding: 24px;
+}
+
+.work-content-header{
+    font-size: 32px;
+    align-self: center;
+}
+
+.work-resumeBtn{
+    align-self: center;
+    padding-top: 5%;
+    
+}
+
+.work-btn{
+    background-color: transparent;
+    color: #242424;
+    padding: 8px 20px;
+    border: 1px solid #242424;
+    transition: all 0.3s ease-out;
+}
+
+.work-content-job {
+    flex: 0 1 auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+

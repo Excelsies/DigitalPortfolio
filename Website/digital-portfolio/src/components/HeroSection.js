@@ -7,7 +7,7 @@ import './HeroSection.css'
 const Video = () => {
     const src = getVideoSrc(window.innerWidth);
     return(
-        <video muted="true" src={src} autoPlay loop playsInline/>
+        <video muted={true} src={src} autoPlay loop playsInline/>
     );
 }
 
