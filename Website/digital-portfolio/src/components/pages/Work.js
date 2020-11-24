@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import './Work.css'
+import Pdf from '../../Resume.pdf'
 
 export default function Work() {
     return ( 
@@ -82,7 +83,7 @@ export default function Work() {
                 </div>
 
                 <div className='work-resumeBtn'>
-                    <a href="https://drive.google.com/file/d/1QtxgxXmfakw4vuybPyCOCHfYa5Jl9JxL/view?usp=sharing" 
+                    <a href={Pdf} 
                         target="new" className="work-btn">
                         Check Out My Resume!
                     </a>
